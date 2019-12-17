@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 import unicodedata
 import string
-nltk.download('punkt');nltk.download('averaged_perceptron_tagger');nltk.download('wordnet');nltk.download('stopwords');
+# nltk.download('punkt');nltk.download('averaged_perceptron_tagger');nltk.download('wordnet');nltk.download('stopwords');
 
 def get_wordnet_pos(word):
  tag = nltk.pos_tag([word])[0][1][0].upper()
