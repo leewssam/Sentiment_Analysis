@@ -4,7 +4,7 @@ A program that is able to predicts its sentiment (Negative or Positive) with the
 
 ## Steps to run the program
 1. Clone to repository
-2. Download the embedding file from [this link](https://drive.google.com/open?id=1LuIupesbpQzQ5YCX8jQN5cGtqx80dW_e), why? [Github does not allow file larger than 100MB to be uploaded.]
+2. Download the embedding file from [this link](https://drive.google.com/open?id=14N-clFzM3qwsw-uYIwa4im0_8HPpAgFa), why? [Github does not allow file larger than 100MB to be uploaded.]
 3. Move the downloaded file to the repository file location
 4. Run <b>sa_preprocess.py</b>
    - It may takes a minute or two before first line was inputted, because it was importing all used library.
