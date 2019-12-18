@@ -69,12 +69,16 @@ def sentiment_analysis(emb, logisticRegr):
 
 if __name__== "__main__":
 
-    emb = input("Please enter embedding file name: ")
+    # emb = input("Please enter embedding file name: ")
+    emb = "amazon_embedding_v3.model"
+    # amazon_embedding_v3.model
     # If you wish to set it permanently, comment the input and then put emb with the location f of embedding file
     emb_model = emb
     emb_model = Word2Vec.load(emb_model)
 
-    model = input("Please enter Sentiment Analysis Pre-trained Model File name: ")
+    # model = input("Please enter Sentiment Analysis Pre-trained Model File name: ")
+    model = "amazon_rt_sentiment.model"
+    # amazon_rt_sentiment.model
     # If you wish to set it permanently, comment the input and then put model with the location f of model file
     sa_model = model
     logisticRegr = pickle.load(open(sa_model, 'rb'))
